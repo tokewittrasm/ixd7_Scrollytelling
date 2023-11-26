@@ -1,0 +1,46 @@
+#section-two{
+    padding: 0;
+    position: relative;
+    margin: 0;
+    height: 900px;
+    background-image: url("./Assets/bg.svg");
+    width: 100%;
+    overflow:visible;
+    z-index: 1;
+}
+
+h1{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    color: rebeccapurple;
+}
+
+
+#lottie-conveyer{
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+
+#tube{
+    top: 360px;
+    left: 300px;
+    position: absolute;
+    z-index: 0;
+}
+
+#tube img{
+    width: 80%;
+}
+
+#screen-1{
+    top: 200px;
+    position: absolute;
+}
+
+#screen-1 img{
+    width: 68%;
+}
+

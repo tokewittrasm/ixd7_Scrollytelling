@@ -1,0 +1,66 @@
+#section-three{
+    padding: 0;
+    position: relative;
+    margin: 0;
+    height: 1800px;
+    background-image: url("./Assets/bg.svg");
+    width: 100%;
+}
+
+#screen-2{
+    position: absolute;
+    top: -100px;
+    right: -50px;
+}
+
+#screen-2 img{
+    width: 75%;
+}
+.tubes {
+    position:absolute;
+    top: 35%;
+    right: 0;
+}
+
+.apple{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 0;
+}
+
+
+.hitbox{
+    position: absolute;
+    width: 200px; 
+    height: 350px; 
+    z-index: 5;
+    border: dashed 4px transparent;
+    border-radius: 4px;
+}
+
+
+.guess-fruit{
+    position:absolute;
+    top: 18%;
+    left: 30%;
+    z-index: 6;
+}
+
+.modal{
+    top: 207px;
+    right: 87px;
+    position: absolute;
+    display: none;
+    z-index: 10;
+    width: 542px;
+    height: 265px;
+}
+
+#fruit-modal-correct{
+    background-color: rgb(166, 197, 108);
+}
+
+#fruit-modal-incorrect{
+    background-color: rgb(197, 108, 108);
+}
