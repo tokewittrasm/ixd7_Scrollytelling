@@ -55,6 +55,17 @@
     z-index: 10;
     width: 542px;
     height: 265px;
+    align-items: center;
+}
+
+.modal h1{
+    position: relative;    
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    font-size: 48px;
+    
 }
 
 #fruit-modal-correct{
