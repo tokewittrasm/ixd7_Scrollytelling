@@ -66,12 +66,13 @@ function SectionThree() {
       </div>
       <div id="fruit-modal-correct" className="modal">
         <div className="modal-content">
-          <h1>Skide godt du!</h1>
+          <h1>Well done!</h1>
         </div>
       </div>
       <div id="fruit-modal-incorrect" className="modal">
-        <div className="modal-content">
-          <h1>Det kan gøres bedre!</h1>
+        <div className="modal-content" id="modal-incorrect">
+          <h1>Oh no!</h1>
+          <p>Be careful, incorrectly sorting the fruits impacts the factory negatively</p>
         </div>
       </div>
     </div>
