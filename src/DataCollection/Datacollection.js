@@ -2,7 +2,7 @@ import React from "react";
 import './datacollection.css'
 import { forwardRef } from "react";
 import Conveyer from './Conveyerbelt'
-import Tube from './Assets/Tragt1.svg'
+import Tube from './Assets/tragt_1080.svg'
 import Screen1 from './Screen1'
 
 
