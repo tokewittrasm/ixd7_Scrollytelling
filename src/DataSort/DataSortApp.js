@@ -67,6 +67,7 @@ function SectionThree() {
       <div id="fruit-modal-correct" className="modal">
         <div className="modal-content">
           <h1>Well done!</h1>
+          <p id="model-content-corret">Good job, sorting the fruit correctly, helps the factory to recognize each fruit</p>
         </div>
       </div>
       <div id="fruit-modal-incorrect" className="modal">
@@ -165,7 +166,6 @@ interact('#applebox').dropzone({
     } else {
       document.getElementById('fruit-modal-incorrect').style.display = 'block'
     }
-    ResetFruitLocation()
   }
 })
 
@@ -174,7 +174,8 @@ function IncrementFruit() {
   fruitCounter++
 
   if (fruitCounter >= 5) {
-    fruitCounter = 0
+    document.getElementById('apple').style.visibility = "hidden"
+    document.getElementById('model-content-corret').textContent = "The fruit are now sorted correctly"
   }
   document.getElementById('guess-fruit-id').src = ChangeFruit(fruitCounter)
 }
