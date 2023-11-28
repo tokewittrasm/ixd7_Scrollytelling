@@ -2,7 +2,7 @@ import { useLottie, useLottieInteractivity } from "lottie-react";
 import Conveyer from './Assets/Conveyor_belt.json'
 
 const style = {
-    height: 300,
+    height: 420,
   };
   
   const options = {

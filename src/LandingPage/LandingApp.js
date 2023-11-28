@@ -3,7 +3,7 @@ import Smoke from './SmokeAnimation'
 import Plane from './PlaneAnimation'
 import Cloud from './Assets/Cloud2.svg'
 import Cloud2 from './Assets/Cloud3.svg'
-import Btn from './Assets/start-btn.svg'
+import Btn from './Assets/btn_1080.svg'
 import './landingapp.css'
 
 

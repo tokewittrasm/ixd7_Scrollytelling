@@ -7,8 +7,8 @@ const options = {
   };
 
 const style = {
-    height: "600px",
-    width: "600px"
+    height: "700px",
+    width: "700px"
 };
 
 
