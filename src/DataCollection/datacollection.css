@@ -17,7 +17,7 @@
 }
 
 #tube{
-    top: 400px;
+    top: 420px;
     left:280px;
     position: absolute;
     z-index: 0;
@@ -25,11 +25,14 @@
 
 #tube img{
     width: 100%;
+    
 }
 
 #screen-1{
-    top: 250px;
+    top: 370px;
+    left:-300px;
     position: absolute;
+    z-index: 3;
 }
 
 

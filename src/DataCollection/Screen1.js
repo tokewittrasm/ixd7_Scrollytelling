@@ -7,8 +7,8 @@ const options = {
   };
 
 const style = {
-    height: "700px",
-    width: "700px"
+    width: "90%"
+   
 };
 
 
@@ -19,7 +19,7 @@ const TextLottie = () =>{
       mode: "scroll",
       actions: [
         {
-          visibility: [1, 1],
+          visibility: [1,1],
           type: "stop",
           frames: [0],
         },
