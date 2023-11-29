@@ -6,7 +6,6 @@ import Tube from './Assets/tragt_1080.svg'
 import Screen1 from './Screen1'
 
 
-
 const SectionTwo= forwardRef((props, ref) =>{
 
     return(
@@ -19,7 +18,6 @@ const SectionTwo= forwardRef((props, ref) =>{
             </div>
             <div id="screen-1">
                 <Screen1/>
-            {/*<img src={Screen} alt="Tube"/>*/}
             </div>
         </div>
     )

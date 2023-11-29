@@ -67,7 +67,7 @@ function SectionThree() {
       <div id="fruit-modal-correct" className="modal">
         <div className="modal-content">
           <h1>Well done!</h1>
-          <p id="model-content-corret">Good job, sorting the fruit correctly, helps the factory to recognize each fruit</p>
+          <p id="model-content-corret">By sorting the fruit correctly you help the factory recognize each fruit</p>
         </div>
       </div>
       <div id="fruit-modal-incorrect" className="modal">
@@ -165,6 +165,8 @@ interact('#applebox').dropzone({
       document.getElementById('fruit-modal-correct').style.display = 'block'
     } else {
       document.getElementById('fruit-modal-incorrect').style.display = 'block'
+    }if(fruitCounter<5){
+      ResetFruitLocation()
     }
   }
 })

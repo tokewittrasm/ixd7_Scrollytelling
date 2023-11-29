@@ -1,6 +1,6 @@
 body {
   scroll-behavior: smooth;
-  max-width: 100%;
+  min-width: 100%;
   overflow-x: hidden;
   width: 1920px;
   margin: 0;

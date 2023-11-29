@@ -10,8 +10,10 @@
 #screen-2{
     position: absolute;
     top: -100px;
-    right: -50px;
+    right: 0;
 }
+
+
 
 .tubes {
     position:absolute;
@@ -40,14 +42,14 @@
 
 .guess-fruit{
     position:absolute;
-    top: 17%;
+    top: 20%;
     left: 26%;
     z-index: 6;
 }
 
 .modal{
     top: 207px;
-    right: 87px;
+    right: 136px;
     position: absolute;
     display: none;
     z-index: 10;
