@@ -1,6 +1,6 @@
 # OBS! Before running the application
 
-This app was solely made for a viewport of 1920x1080. This means that the size of your browser might have to be resized. Additionally you can use the browser’s responsive mode. 
+This app was solely made for a viewport of 1920x1080. This means that the your browser might have to be resized. Additionally you can use the browser’s responsive mode. 
 
 due to unknown reasons the animations do sometimes flicker. However, Chromium based browsers seem to be without this issue. Therefore if possible, open the project in Chrome or other chromium based browsers
 
