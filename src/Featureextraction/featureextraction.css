@@ -1,0 +1,15 @@
+#section-five{
+    position: relative;
+    background-image: url("Assets/bg_1080.svg");
+    height: 1080px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+}
+
+
+ #scratch-container-wrapper{
+    position:absolute;
+    left: 400px;
+}

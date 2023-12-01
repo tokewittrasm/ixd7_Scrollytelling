@@ -3,6 +3,7 @@ import LandingApp from './LandingPage/LandingApp';
 import SectionTwo from './DataCollection/Datacollection'
 import SectionThree from './DataSort/DataSortApp'
 import SectionFour from './Preprocessing/Preprocessing';
+import SectionFive from './Featureextraction/Featureextraction';
 import { useRef } from "react";
 
 
@@ -16,6 +17,7 @@ function App() {
       <SectionTwo ref={resultRef}/>
       <SectionThree/>
       <SectionFour/>
+      <SectionFive/>
     </div>
   );
 }

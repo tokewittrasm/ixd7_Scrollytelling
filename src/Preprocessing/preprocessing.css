@@ -1,12 +1,30 @@
 .Preprocessing-page{
     background-image: url("Assets/bg_1080.svg");
-    height: 1080px;
+    position: relative;
+    height: 2160px;
     width: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: visible;
 }
 
-h1{
+.Preprocessing-page h1{
   color:  #9f8dabb7;
+}
+
+#conveyerbelt{
+  position: absolute;
+  top: -230px;
+}
+
+#screen-3{
+  position: absolute;
+  right: -400px;
+  top: 700px;
+}
+
+#conveyerbelt-2{
+  position: absolute;
+  top: 1150px;
+  transform: scaleX(-1);
 }
