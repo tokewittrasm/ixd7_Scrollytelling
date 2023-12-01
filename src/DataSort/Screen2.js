@@ -7,8 +7,7 @@ const options = {
   };
 
 const style = {
-    height: "700px",
-    width: "700px"
+    width: "90%"
 };
 
 
