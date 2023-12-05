@@ -1,5 +1,5 @@
 import { useLottie, useLottieInteractivity } from "lottie-react";
-import Conveyer from './Assets/Conveyorbelt02.json'
+import Conveyer from './Assets/Conveyorbelt02Roterende.json'
 
 const style = {
     width : "100%"
@@ -18,7 +18,7 @@ const style = {
         {
           visibility: [0, 1],
           type: "seek",
-          frames: [0, 500],
+          frames: [0, 200],
         },
       ],
     });

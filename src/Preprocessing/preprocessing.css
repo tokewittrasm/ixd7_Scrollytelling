@@ -1,7 +1,7 @@
 .Preprocessing-page{
     background-image: url("Assets/bg_1080.svg");
     position: relative;
-    height: 2160px;
+    height: 2560px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -25,6 +25,11 @@
 
 #conveyerbelt-2{
   position: absolute;
-  top: 1150px;
+  top: 1250px;
   transform: scaleX(-1);
+}
+
+#conveyerbelt-3{
+  position: absolute;
+  top: 1350px;
 }

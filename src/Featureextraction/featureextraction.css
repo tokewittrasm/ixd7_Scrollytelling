@@ -1,15 +1,86 @@
 #section-five{
     position: relative;
     background-image: url("Assets/bg_1080.svg");
-    height: 1080px;
+    height: 1500px;
     width: 100%;
     margin: 0;
     padding: 0;
+    
     overflow: hidden;    
+}
+#screen-4{
+    position: absolute;
+    right: -600px;
+}
+#scratch-container-wrapper{
+    position: absolute;
+    top: 695px;
+    right: 770px;
+}
+
+#apple-scan-belt{
+    z-index: 1;
+    position: absolute;
+    top: 600px;
+}
+
+#sratch-backimg-container{
+    z-index: 1;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+
+#filter-outside{
+    z-index: 1;
+
+    position: absolute;
+    left: -11px;
+    top: 0px;
+    
+}
+
+#filter-outside-back{
+    position: absolute;
+    z-index: 0;
+    top: -30px;
+    left: 40px;
 }
 
 
- #scratch-container-wrapper{
-    position:absolute;
-    left: 400px;
+canvas{
+    z-index: 2 !important;
+}
+
+#screen-4-modal{
+    position: absolute;
+    visibility: hidden;
+    top: 220px;
+    right: 288px;
+    width: 586px;
+    height: 290px;
+    background-color: rgb(53, 170, 59);
+}
+
+#screen-4-modal h1{
+    position: relative;   
+    left: 0; 
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 48px;
+    color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+#screen-4-modal p{
+    position: absolute;
+    left: 70px;
+    top: 100px;
+    width: 75%;
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(247, 247, 247);
+
 }
