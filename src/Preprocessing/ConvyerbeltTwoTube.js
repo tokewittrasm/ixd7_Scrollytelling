@@ -18,7 +18,7 @@ const style = {
         {
           visibility: [0, 1],
           type: "seek",
-          frames: [0, 400],
+          frames: [170, 270],
         },
       ],
     });

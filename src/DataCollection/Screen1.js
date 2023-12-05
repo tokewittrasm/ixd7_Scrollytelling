@@ -24,7 +24,7 @@ const TextLottie = () =>{
           frames: [0],
         },
         {
-          visibility: [0.30, 1],
+          visibility: [0.4, 1],
           type: "play",
           frames: [0, 38],
         },
