@@ -1,7 +1,5 @@
 # OBS! Before running the application
 
-
-
 due to unknown reasons the animations do sometimes flicker. However, Chromium based browsers seem to be without this issue. Therefore if possible, open the project in Chrome or other chromium based browsers
 
 # Getting Started with Create React App
