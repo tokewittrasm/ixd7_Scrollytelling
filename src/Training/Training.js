@@ -29,7 +29,7 @@ function SectionSix(){
     const handleModalPopup = () =>{
         setTimeout(() =>{
             document.getElementById('modal').style.visibility = "hidden"
-        },500)
+        },2500)
     }
 
     const [activeContentIndex, setActiveContentIndex] = useState(0);
@@ -98,7 +98,7 @@ function SectionSix(){
         modal.style.visibility = "visible"
 
         modal.firstChild.textContent= "Well Done"
-        modal.lastChild.textContent= "Well Done"  
+        modal.lastChild.textContent= "Correct answers improves the model"  
 
         activeContentIndex !== 4 ? handleModalPopup() : ShowDone()
       
@@ -110,8 +110,8 @@ function SectionSix(){
         modal.classList.add("wrong-answer")
         modal.style.visibility = "visible"
 
-        modal.firstChild.textContent= "Not Well Done"
-        modal.lastChild.textContent= "Not Well Done"
+        modal.firstChild.textContent= "Be careful!"
+        modal.lastChild.textContent= "Answering incorrectly affects the model negatively and worsening it"
 
         activeContentIndex !== 4 ? handleModalPopup() : ShowDone()
 
@@ -123,8 +123,8 @@ function SectionSix(){
         modal.classList.add("correct-answer")
         modal.style.visibility = "visible"
 
-        modal.firstChild.textContent= "DONE DONE"
-        modal.lastChild.textContent= "Well Done"
+        modal.firstChild.textContent= "Great job!"
+        modal.lastChild.textContent= "You have now successfully trained the model and it is ready for deployment"
 
     }
 }
