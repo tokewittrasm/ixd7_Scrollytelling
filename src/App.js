@@ -4,6 +4,7 @@ import SectionTwo from './DataCollection/Datacollection'
 import SectionThree from './DataSort/DataSortApp'
 import SectionFour from './Preprocessing/Preprocessing';
 import SectionFive from './Featureextraction/Featureextraction';
+import SectionSix from './Training/Training';
 import { useRef } from "react";
 
 
@@ -18,6 +19,7 @@ function App() {
       <SectionThree/>
       <SectionFour/>
       <SectionFive/>
+      <SectionSix/>
     </div>
   );
 }
