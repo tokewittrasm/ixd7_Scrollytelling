@@ -1,0 +1,83 @@
+#section-six{
+    position: relative;
+    background-image: url("Assets/bg_1080.svg");
+    height: 1400px;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;    
+}
+
+#screen-5{
+    position: absolute;
+    left: -600px;
+}
+
+#apple-running{
+    position: absolute;
+    top: 600px;
+}
+
+#training-screen{
+    position: absolute;
+    right: -220px;
+}
+
+#training-screen img{
+    width: 75%;
+}
+
+#btn-yes{
+    position: absolute;
+    right: 380px;
+    top: 460px;
+}
+
+#btn-no{
+    position: absolute;
+    right: 100px;
+    top: 460px;
+}
+
+.buttons { transition: all .2s ease-in-out; }
+.buttons:hover { 
+    transform: scale(1.1); 
+    cursor: pointer;
+    
+}
+.buttons:active{
+    filter: brightness(75%);
+}
+
+
+#training-screen-content{
+    position: absolute;
+    top: 180px;
+    right: 250px;
+    text-align: center;
+}
+
+#modal{
+    text-align: center;
+    position: absolute;
+    visibility: hidden;
+    width: 488px;
+    height:240px;
+    top: 185px;
+    right: 120px;
+    z-index: 1;
+}
+
+#modal h1{
+    font-size: 48px;
+    color: rgb(247, 247, 247);
+}
+
+#modal p{
+    font-size: 24px;
+    color: rgb(247, 247, 247);
+}
+
+.correct-answer{background-color: rgb(53, 170, 59);}
+.wrong-answer{background-color: rgb(229, 83, 83);}
+
