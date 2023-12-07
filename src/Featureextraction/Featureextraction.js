@@ -42,7 +42,7 @@ function SectionFive(){
             </div>
             <div id="screen-4-modal">
                 <h1>Well done!</h1>
-                {/*<p>By sorting the fruit correctly you help the factory recognize each fruit</p>*/}            
+                <p>Extracting features helps the factory recognise diffrerent fruit</p>            
             </div>
             <div id='apple-scan-belt' ref={divObserver}>
                 <AppleScanComponent ref={appleRef}/>
