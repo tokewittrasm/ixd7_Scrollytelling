@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import './training.css'
 import Screen5 from './Screen5'
 import AppleRunning from './AppleRunning'
@@ -12,8 +12,7 @@ import Apple from './Assets/AppleImg.svg'
 
 
 function SectionSix(){
-    let modalHeader = ""
-    let modalText = ""
+
 
 
     var fruitCounter = 0
