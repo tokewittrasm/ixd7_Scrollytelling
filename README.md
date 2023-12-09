@@ -1,10 +1,10 @@
 # OBS! Before running the application
 The application is made solely for a resolution of 1920x1080. This means that you likely has to resize your browser's viewport or put it into responsive mode.\
-you can do that by pressing:\
+you can do that by pressing:
 
 FireFox => Ctrl + Shift + M (or Cmd + Opt + M on macOS)\
 Safari => ⌃⌘R\
-Chrome => not an option, has to resize.\
+Chrome => not an option, has to resize.
 
 
 Due to unknown reasons the animations do sometimes flicker. However, Chromium based browsers seem to be without this issue. Therefore if possible, open the project in Chrome or other chromium based browsers
