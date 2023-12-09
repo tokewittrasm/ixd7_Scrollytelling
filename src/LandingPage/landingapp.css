@@ -17,6 +17,24 @@
     bottom: -10px;
 }
 
+#intro{
+    bottom: 500px;
+    right: 150px;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    width: 35%;
+
+}
+
+#intro-header{
+    font-size: 60px;
+}
+
+#intro-body-text{
+    font-size: 24px;
+}
+
 #plane{
     margin: 0;
     position: absolute;
