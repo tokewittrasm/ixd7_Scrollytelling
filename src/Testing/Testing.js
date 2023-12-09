@@ -1,7 +1,7 @@
 import React from "react";
 import './testing.css';
 import interact from 'interactjs'
-import Screen6 from './Screen6'
+import FinalScreen from './Screen6'
 import Plate from './Assets/Plate_Test.svg'
 import Light from './Assets/Test_Highligt.svg'
 import Conveyer from './Assets/ConveyerSectionSeven.svg'
@@ -10,16 +10,24 @@ import Bananan from './Assets/BananaImg.svg'
 import Pear from './Assets/PearImg.svg'
 import Apple from './Assets/AppleImg.svg'
 import Peach from './Assets/PeachImg.svg'
+import Divider from './Assets/Divider.svg'
+import Lamp from './Assets/Lamp.svg'
 import { FRUITS } from "./FruitScreen";
 
 
 
-function SectionSeven(){
+function FinalSection(){
     return(
   
         <div id="section-seven">
-            <div id="screen-6">
-                <Screen6/>
+            <div id="final-screen">
+                <FinalScreen/>
+            </div>
+            <div id="divider">
+              <img src={Divider} alt="divider"/>
+            </div>
+            <div id="lamp">
+              <img src={Lamp} alt="lamp"/>
             </div>
             <div id="plate">
                 <img src={Plate} alt="plateImage"/>
@@ -118,8 +126,6 @@ interact('.fruit')
 
   }})
 
-
-
   window.dragMoveListener = dragMoveListener
 
 
@@ -129,4 +135,4 @@ interact('.fruit')
     })
   }
 
-export default SectionSeven
+export default FinalSection

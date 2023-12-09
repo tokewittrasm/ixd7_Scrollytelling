@@ -8,9 +8,20 @@
     overflow: hidden;    
 }
 
-#screen-6{
+#final-screen{
     position: absolute;
     right: -500px;
+}
+
+#divider{
+position: absolute;
+top: 0.2px;
+left: -10px;
+z-index: 2;
+}
+
+#divider img{
+    width: 90%;
 }
 
 #plate{
@@ -21,10 +32,16 @@
 
 #light{
     position: absolute;
-    top: 0;
+    top: 260px;
     left: 200px;
 }
 
+#lamp{
+    position: absolute;
+    top: 34px;
+    left: 371px;
+    z-index: 1;
+}
 #conveyer{
     position: absolute;
     bottom: 100px;

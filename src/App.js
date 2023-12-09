@@ -5,7 +5,8 @@ import SectionThree from './DataSort/DataSortApp'
 import SectionFour from './Preprocessing/Preprocessing';
 import SectionFive from './Featureextraction/Featureextraction';
 import SectionSix from './Training/Training';
-import SectionSeven from './Testing/Testing';
+import SectionEight from './Testing/Testing';
+import SectionSeven from './Deployment/Deployment';
 import { useRef } from "react";
 
 
@@ -22,6 +23,7 @@ function App() {
       <SectionFive/>
       <SectionSix/>
       <SectionSeven/>
+      <SectionEight/>
     </div>
   );
 }
