@@ -1,0 +1,101 @@
+#section-seven{
+    position: relative;
+    background-image: url("Assets/bg_1080.svg");
+    height: 1080px;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;    
+}
+
+#final-screen{
+    position: absolute;
+    right: -500px;
+}
+
+#divider{
+position: absolute;
+top: 0.2px;
+left: -10px;
+z-index: 2;
+}
+
+#divider img{
+    width: 90%;
+}
+
+#plate{
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+
+#light{
+    position: absolute;
+    top: 260px;
+    left: 200px;
+}
+
+#lamp{
+    position: absolute;
+    top: 34px;
+    left: 371px;
+    z-index: 1;
+}
+#conveyer{
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+}
+
+.fruit{
+    z-index: 2;
+    position: absolute;
+    bottom: 180px;
+
+}
+
+#strawberry{
+    right: 150px;
+    bottom: 180px;
+}
+
+#pear{
+    right: 300px;
+}
+
+#banana{
+    right: 450px;
+}
+
+#apple{
+    right: 650px;
+}
+
+#peach{
+    right: 850px;
+}
+
+#hitbox{
+    position: absolute;
+    left: 235px;
+    bottom: 350px;
+    width: 500px; 
+    height: 300px; 
+    z-index: 5;
+    border: dashed 4px transparent;
+    border-radius: 4px;
+}
+
+#infoscreen{
+    position: absolute;
+    top: 222px;
+    visibility: hidden;
+    right: 325px;
+}
+
+#infoscreen img{
+   width: 90%;
+}
+
+

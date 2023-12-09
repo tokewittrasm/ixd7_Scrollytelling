@@ -1,0 +1,33 @@
+<svg width="1092" height="131" viewBox="0 0 1092 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1092 94L0 94V40C0 17.9086 17.9086 0 40 0L1092 0V94Z" fill="#97A9CB"/>
+<path d="M1092 131L36.5 131C16.3416 131 0 114.658 0 94.5V94.5C0 74.3416 16.3416 58 36.5 58L1092 58V131Z" fill="#535861"/>
+<line x1="66.5" y1="57" x2="66.5" stroke="#6A6868"/>
+<line x1="126.5" y1="57" x2="126.5" stroke="#6A6868"/>
+<line x1="186.5" y1="57" x2="186.5" stroke="#6A6868"/>
+<line x1="246.5" y1="58" x2="246.5" y2="1" stroke="#6A6868"/>
+<line x1="306.5" y1="58" x2="306.5" y2="1" stroke="#6A6868"/>
+<line x1="366.5" y1="58" x2="366.5" y2="1" stroke="#6A6868"/>
+<line x1="426.5" y1="58" x2="426.5" y2="1" stroke="#6A6868"/>
+<line x1="486.5" y1="58" x2="486.5" y2="1" stroke="#6A6868"/>
+<line x1="546.5" y1="58" x2="546.5" y2="1" stroke="#6A6868"/>
+<line x1="606.5" y1="57" x2="606.5" stroke="#6A6868"/>
+<line x1="666.5" y1="57" x2="666.5" stroke="#6A6868"/>
+<line x1="726.5" y1="57" x2="726.5" stroke="#6A6868"/>
+<line x1="786.5" y1="57" x2="786.5" stroke="#6A6868"/>
+<line x1="846.5" y1="57" x2="846.5" stroke="#6A6868"/>
+<line x1="906.5" y1="57" x2="906.5" stroke="#6A6868"/>
+<line x1="966.5" y1="58" x2="966.5" y2="1" stroke="#6A6868"/>
+<line x1="1026.5" y1="58" x2="1026.5" y2="1" stroke="#6A6868"/>
+<line x1="1086.5" y1="58" x2="1086.5" y2="1" stroke="#6A6868"/>
+<circle cx="40" cy="94" r="31" fill="#FAB021"/>
+<circle cx="142" cy="94" r="31" fill="#FAB021"/>
+<circle cx="244" cy="94" r="31" fill="#FAB021"/>
+<circle cx="346" cy="94" r="31" fill="#FAB021"/>
+<circle cx="448" cy="94" r="31" fill="#FAB021"/>
+<circle cx="550" cy="94" r="31" fill="#FAB021"/>
+<circle cx="652" cy="94" r="31" fill="#FAB021"/>
+<circle cx="754" cy="94" r="31" fill="#FAB021"/>
+<circle cx="856" cy="94" r="31" fill="#FAB021"/>
+<circle cx="958" cy="94" r="31" fill="#FAB021"/>
+<circle cx="1060" cy="94" r="31" fill="#FAB021"/>
+</svg>

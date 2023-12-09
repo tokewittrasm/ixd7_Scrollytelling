@@ -1,0 +1,20 @@
+#section-eight{
+    position: relative;
+    background-image: url("Assets/bg_1080.svg");
+    height: 1080px;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;    
+}
+
+#screen-6{
+    position: absolute;
+    left: -500px;
+}
+
+#apple-grow{
+    position: absolute;
+    top: 100px;
+}
+
