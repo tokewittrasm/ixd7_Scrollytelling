@@ -14,7 +14,7 @@ const LandingApp = ({resultRef}) =>{
         resultRef.current.scrollIntoView({ behavior: "smooth" });
     }
 
-    return (
+    return(
         <div className='landing-page'>
             <div id='intro'>
                 <h1 id='intro-header'>Fruit Factory</h1>
@@ -23,7 +23,6 @@ const LandingApp = ({resultRef}) =>{
             <div id='start-btn' >
                 <button onClick={HandleScroll}> 
                 <img src={Btn} alt='Start Btn'/>
-
                 </button>
             </div>
             <div id='clouds'>
