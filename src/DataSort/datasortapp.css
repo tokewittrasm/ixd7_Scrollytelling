@@ -46,6 +46,8 @@
 
 
 .guess-fruit{
+    width: 100px;
+    height: 100px;
     position:absolute;
     top: 20%;
     left: 26%;
