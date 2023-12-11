@@ -18,7 +18,7 @@ const LandingApp = ({resultRef}) =>{
         <div className='landing-page'>
             <div id='intro'>
                 <h1 id='intro-header'>Fruit Factory</h1>
-                <p id='intro-body-text'>Welcome to the image recognition model training facility. <br/>Get a closer look on how the model is trained!</p>
+                <p id='intro-body-text'>Welcome to the image recognition model training factory. <br/>Get a closer look on how the model is trained!</p>
             </div>
             <div id='start-btn' >
                 <button onClick={HandleScroll}> 
