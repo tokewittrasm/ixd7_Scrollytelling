@@ -1,6 +1,6 @@
 # OBS! Before running the application
 
-if npm start does not work. try first with npm install react-scripts --save --force before running the application.\
+if npm start does not work. try first with npm install react-scripts --save --force before running the application.
 
 The application is made solely for a resolution of 1920x1080. This means that you likely has to resize your browser's viewport or put it into responsive mode.\
 you can do that by pressing:
