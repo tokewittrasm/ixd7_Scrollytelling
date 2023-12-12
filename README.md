@@ -3,7 +3,7 @@
 Having NodeJS installed is required to run this application locally.
 
 if `npm start` does not work. try first with `npm install react-scripts --save --force`before running the application.
-The application is made solely for a resolution of 1920x1080. This means that you likely has to resize your browser's viewport or put it into responsive mode.you can do that by pressing:.\
+The application is made solely for a resolution of 1920x1080. This means that you likely has to resize your browser's viewport or put it into responsive mode.you can do that by pressing:
 
 FireFox => Ctrl + Shift + M (or Cmd + Opt + M on macOS)\
 Safari => ⌃⌘R\
