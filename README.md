@@ -13,7 +13,7 @@ Chrome => not an option, has to resize.
 Due to unknown reasons the animations do sometimes flicker. However, Chromium based browsers seem to be without this issue. Therefore if possible, open the project in Chrome or other chromium based browsers
 
 # video Demonstration
-[![VIDEO DEMONSTRATION]([https://www.youtube.com/watch?v=fLEpNz7Od7s](https://i3.ytimg.com/vi/fLEpNz7Od7s/maxresdefault.jpg))](https://www.youtube.com/watch?v=fLEpNz7Od7s)
+[![VIDEO DEMONSTRATION]((https://i3.ytimg.com/vi/fLEpNz7Od7s/maxresdefault.jpg))](https://www.youtube.com/watch?v=fLEpNz7Od7s)
 
 # Getting Started with Create React App
 
