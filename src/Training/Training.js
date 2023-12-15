@@ -28,7 +28,7 @@ function SectionSix(){
     const handleModalPopup = () =>{
         setTimeout(() =>{
             document.getElementById('modal').style.visibility = "hidden"
-        },2500)
+        },1300)
     }
 
     const [activeContentIndex, setActiveContentIndex] = useState(0);

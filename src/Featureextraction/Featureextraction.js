@@ -49,21 +49,21 @@ function SectionFive(){
             </div>
             <div id="scratch-container-wrapper">
                 <div id="scratch-container-inner" className="sc__container">
-                <img id="filter-outside"src={FilterOutside} style={{width:"400x", height:"400px"}}></img>
-                <img id="filter-outside-back"src={FitlterOutsideBack} style={{width:"400x", height:"400px"}}></img>
+                <img id="filter-outside"src={FilterOutside} style={{width:"400x", height:"400px"}} alt='fillerbox'></img>
+                <img id="filter-outside-back"src={FitlterOutsideBack} style={{width:"400x", height:"400px"}} alt='inside'></img>
 
                     <ScratchCard id="scratchcard"
                     width={400}
                     height={400}
                     image={ScratchBox}
-                    finishPercent={75}
+                    finishPercent={50}
                     onComplete={()=>{
                         HideApple()
                         handleExit()
                     }}
                     >
                         <div id='sratch-backimg-container'>
-                            <img id='apple-scracthed' src={AppleHighlight} style={{width:"230px", height:"230px"}}></img>
+                            <img id='apple-scracthed' src={AppleHighlight} style={{width:"230px", height:"230px"}} alt='scratch'></img>
                         </div>
                     </ScratchCard>
                 </div>
